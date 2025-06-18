@@ -62,6 +62,11 @@ string searchname,searchpass;
   Cout<<"Enter Your passwoed ::"<<endl;
   getline(cin,searchpass);
 
+  file.open("loginData.tet",ios :: in);
+  getline(file,userName,'*');
+  getline(file,Email,'*');
+  getline(file,password,'\n');
+  
 
   
 
