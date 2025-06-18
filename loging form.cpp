@@ -54,7 +54,19 @@ void temp:: signUP(){
   file<<userName<<"*"<<Email<<"*"<<password<<endl;
   file.close();
 }
+void temp :: login(){
+string searchname,searchpass;
+  Cout<<"----------LOGIN----------"<<endl;
+  Cout<<"Enter Your User name ::"<<endl;
+  getline(cin,searchname);
+  Cout<<"Enter Your passwoed ::"<<endl;
+  getline(cin,searchpass);
 
+
+  
+
+
+}
 
 
 
