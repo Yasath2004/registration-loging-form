@@ -42,3 +42,24 @@ int main(){
 
 
 }
+void temp:: signUP(){
+  cout<<"\nEnter your User name : ";
+  getline(cin,username);
+    cout<<"\nEnter your Email Address : ";
+  getline(cin,Email);
+    cout<<"\nEnter your password : ";
+  getline(cin,username);
+
+  file.open("loginData.text",ios :: out| ios:: app);
+  file<<userName<<"*"<<Email<<"*"<<password<<endl;
+  file.close();
+}
+
+
+
+
+
+
+
+
+
