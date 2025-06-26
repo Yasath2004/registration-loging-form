@@ -66,6 +66,16 @@ string searchname,searchpass;
   getline(file,userName,'*');
   getline(file,Email,'*');
   getline(file,password,'\n');
+  while(!file.eof()){
+    if(username ==searchName){
+      cout<<"\n Acc
+
+
+
+    }
+
+
+  }
   
 
   
